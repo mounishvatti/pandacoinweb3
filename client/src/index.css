@@ -17,8 +17,8 @@ body {
   background-color:#0f0e13;
   background-image: 
     radial-gradient(at 0% 0%, rgb(0, 0, 0) 0, transparent 50%), 
-    radial-gradient(at 50% 0%, rgb(115, 116, 36) 0, transparent 50%), 
-    radial-gradient(at 100% 0%, rgba(104, 84, 24, 0.713) 0, transparent 50%);
+    radial-gradient(at 50% 0%, rgb(251, 254, 36) 0, transparent 50%), 
+    radial-gradient(at 100% 0%, rgba(58, 46, 8, 0.713) 0, transparent 50%);
 }
 
 .gradient-bg-services {
@@ -63,18 +63,18 @@ body {
 .eth-card {
   background-color:#9ba711;
   background-image: 
-    radial-gradient(at 83% 67%, rgb(195, 231, 152) 0, transparent 58%), 
+    radial-gradient(at 83% 67%, rgb(230, 251, 0) 0, transparent 58%), 
     radial-gradient(at 67% 20%, rgb(221, 251, 112) 0, transparent 59%), 
-    radial-gradient(at 88% 35%, rgb(163, 238, 93) 0, transparent 50%), 
-    radial-gradient(at 31% 91%, rgb(107, 216, 95) 0, transparent 52%), 
-    radial-gradient(at 27% 71%, rgb(55, 183, 0) 0, transparent 49%), 
+    radial-gradient(at 88% 35%, rgb(0, 0, 0) 0, transparent 50%), 
+    radial-gradient(at 31% 91%, rgb(119, 124, 84) 0, transparent 52%), 
+    radial-gradient(at 27% 71%, rgb(183, 150, 0) 0, transparent 49%), 
     radial-gradient(at 74% 89%, hsla(30,98%,65%,1) 0, transparent 51%), 
     radial-gradient(at 53% 75%, rgb(97, 250, 135) 0, transparent 45%);
 }
 
 .text-gradient {
   background-color: #fff;
-  background-image: radial-gradient(at 4% 36%, hsla(0,0%,100%,1) 0, transparent 53%), radial-gradient(at 100% 60%, rgb(0, 0, 0) 0, transparent 50%);
+  background-image: radial-gradient(at 4% 36%, hsla(0,0%,100%,1) 0, transparent 53%), radial-gradient(at 100% 60%, rgb(88, 88, 79) 0, transparent 50%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
