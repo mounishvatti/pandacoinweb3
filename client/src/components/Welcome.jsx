@@ -37,7 +37,7 @@ const Welcome = () => {
                     <button
                         type="button"
                         onClick={connectWallet}
-                        className="flex flex-row justify-center items-center my-5 bg-[#929530] p-3 rounded-full cursor-pointer hover:bg-[#bda425]"
+                        className="flex flex-row justify-center items-center my-5 bg-[#5b5d1e] p-3 rounded-full cursor-pointer hover:bg-[#bda425]"
                     >
                         <p className="text-white text-base font-semibold">Connect Wallet</p>
                     </button>
