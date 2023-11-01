@@ -4,6 +4,7 @@ import { SiEthereum } from "react-icons/si";
 import { BsInfoCircle } from "react-icons/bs";
 import { TransactionContext } from "../context/TransactionContext";
 import { Loader } from './';
+import { shortenAddress } from "../utils/shortenAddress";
 
 const companyCommonStyles = "min-h-[70px] sm:px-0 px-2 sm:min-w-[120px] flex justify-center items-center border-[0.5px] border-gray-400 text-sm font-light text-white";
 
@@ -52,18 +53,18 @@ const Welcome = () => {
                     
                     <div className="grid sm:grid-cols-3 grid-cols-2 w-full mt-10">
                         <div className={`rounded-tl-2xl ${companyCommonStyles}`}>
-                            Reliability
+                            Reliable 😮‍💨
                         </div>
-                        <div className={companyCommonStyles}>Security</div>
+                        <div className={companyCommonStyles}>Secure 🔐</div>
                         <div className={`sm:rounded-tr-2xl ${companyCommonStyles}`}>
-                            Ethereum
+                            Ethereum 💠
                         </div>
                         <div className={`sm:rounded-bl-2xl ${companyCommonStyles}`}>
-                            Web 3.0
+                            Web 3.0 👨🏻‍💻
                         </div>
-                        <div className={companyCommonStyles}>Low Fees</div>
+                        <div className={companyCommonStyles}>Low Fee 💰</div>
                         <div className={`rounded-br-2xl ${companyCommonStyles}`}>
-                            Blockchain
+                            Blockchain ⛓️
                         </div>
                     </div>
                 </div>
@@ -78,7 +79,7 @@ const Welcome = () => {
                                 <BsInfoCircle fontSize={16} color="#fff" />
                             </div>
                             <div>
-                                <p className="text-white font-light text-sm">Address</p>
+                                <p className="text-white font-light text-sm">{shortenAddress(currentAccount)}</p>
                                 <p className="text-white font-semibold text-lg mt-1">Ethereum</p>
                             </div>
                         </div>
