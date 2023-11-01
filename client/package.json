@@ -10,7 +10,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "ethers": "^6.8.0",
+    "blob-polyfill": "^7.0.20220408",
+    "buffer": "^6.0.3",
+    "buffer-es6": "^4.9.3",
+    "ethers": "^5.7.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.11.0"

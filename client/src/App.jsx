@@ -1,5 +1,5 @@
-import { useState } from 'react'
-import { Footer, Loader, Navbar, Services, Transactions, Welcome } from './components'
+import { useState } from 'react';
+import { Footer, Loader, Navbar, Services, Transactions, Welcome } from './components';
 
 const App = () => {
   return (
