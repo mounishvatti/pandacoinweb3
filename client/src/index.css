@@ -17,7 +17,7 @@ body {
   background-color:#0f0e13;
   background-image: 
     radial-gradient(at 0% 0%, rgb(0, 0, 0) 0, transparent 50%), 
-    radial-gradient(at 50% 0%, rgb(251, 254, 36) 0, transparent 50%), 
+    radial-gradient(at 50% 0%, rgba(250, 254, 36, 0.221) 0, transparent 50%), 
     radial-gradient(at 100% 0%, rgba(58, 46, 8, 0.713) 0, transparent 50%);
 }
 

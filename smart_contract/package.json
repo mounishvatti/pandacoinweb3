@@ -8,5 +8,11 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "hardhat": "^2.18.3"
+  },
+  "dependencies": {
+    "@nomiclabs/hardhat-waffle": "^2.0.6"
+  }
 }
