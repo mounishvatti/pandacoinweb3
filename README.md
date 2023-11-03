@@ -2,7 +2,7 @@
 
 This is a Vite+React WEB3.0 Application using Tailwindcss for PandaCoin using Ethereum Blockchain Network &amp; writing Solidity Smart Contracts and integrating it with Metamask Extension to transfer SepoliaETH globally.
 
-![PandaCoin](client/src/assets/web2.png)
+![PandaCoin](client/src/assets/website.png)
 
 ### Clone this repository
 
