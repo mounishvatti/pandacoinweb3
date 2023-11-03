@@ -1,5 +1,4 @@
 import React from "react";
-
 import logo from "../../images/logo.png";
 
 const Footer = () => (
@@ -21,7 +20,7 @@ const Footer = () => (
       <p className="text-white text-sm text-center font-medium mt-2"> - PandaCoin 🐼</p>
     </div>
 
-    <div className="sm:w-[90%] w-full h-[0.25px] bg-gray-400 mt-5 " />
+    <div className="sm:w-[90%] w-full bg-gray-400 mt-5 " />
 
     <div className="sm:w-[90%] w-full flex justify-between items-center mt-3">
       <p className="text-white text-left text-xs">@pandacoin</p>

@@ -9,10 +9,15 @@ export default {
       display: ["Open Sans", "sans-serif"],
       body: ["Open Sans", "sans-serif"],
     },
+    
     extend: {
       screens: {
         mf: "990px",
       },
+      
+      boxShadow: {
+          '3xl': '0 35px 60px -15px white',
+      },  
       keyframes: {
         "slide-in": {
           "0%": {
