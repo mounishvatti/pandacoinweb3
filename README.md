@@ -168,7 +168,7 @@ Make sure you checkout the `@nomiclabs/hardhat-waffle` as we'll be using it in t
 
 ### Screenshots
 
-![WEB 1](client/src/assets/web1.png)
-![WEB 2](client/src/assets/web2.png)
+![WEB 1](client/src/assets/web2.png)
+![WEB 2](client/src/assets/web1.png)
 
 
