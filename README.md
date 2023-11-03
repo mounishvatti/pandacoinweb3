@@ -2,6 +2,8 @@
 
 This is a Vite+React WEB3.0 Application using Tailwindcss for PandaCoin using Ethereum Blockchain Network &amp; writing Solidity Smart Contracts and integrating it with Metamask Extension to transfer SepoliaETH globally.
 
+![PandaCoin](client/src/assets/web2.png)
+
 ### Clone this repository
 
 ```
@@ -165,10 +167,6 @@ $ npx hardhat init
 Make sure you checkout the `@nomiclabs/hardhat-waffle` as we'll be using it in this project.
 
 [`Hardhat-Plugins`](https://hardhat.org/hardhat-runner/plugins)
-
-### Screenshots
-
-![WEB 1](client/src/assets/web2.png)
 
 ## Video Lecture by [`JS Mastery`](https://www.youtube.com/@javascriptmastery)
 [`Build and Deploy a Modern Web 3.0 Blockchain App | Solidity, Smart Contracts, Crypto`](https://youtu.be/Wn_Kb3MR_cU?si=GP6AewHbyVxhR2kw) by [`@adrianhajdin`](https://github.com/adrianhajdin) 
