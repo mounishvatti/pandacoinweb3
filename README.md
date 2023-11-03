@@ -47,14 +47,14 @@ pnpm create vite
 
 ## Choose your preferred template
 
-[`vue`]() [`react`] [`vanilla`] and many more
+`vue` `react` `vanilla` etc.
 
 ## Choose either TypeScript or JavaSript
 
-[`TypeScript`]
-[`TypeScript + swc`]
-[`JavaScript`]
-[`JavaScript + swc`]
+`TypeScript`
+`TypeScript + swc`
+`JavaScript`
+`JavaScript + swc`
 
 ## We're using Tailwindcss Using PostCSS
 
