@@ -171,7 +171,7 @@ Make sure you checkout the `@nomiclabs/hardhat-waffle` as we'll be using it in t
 ![WEB 1](client/src/assets/web2.png)
 
 ## Video Lecture by [`JS Mastery`](https://www.youtube.com/@javascriptmastery)
-[`Build and Deploy a Modern Web 3.0 Blockchain App | Solidity, Smart Contracts, Crypto`](https://youtu.be/Wn_Kb3MR_cU?si=GP6AewHbyVxhR2kw)
+[`Build and Deploy a Modern Web 3.0 Blockchain App | Solidity, Smart Contracts, Crypto`](https://youtu.be/Wn_Kb3MR_cU?si=GP6AewHbyVxhR2kw) by @adrianhajdin 
 
 
 
