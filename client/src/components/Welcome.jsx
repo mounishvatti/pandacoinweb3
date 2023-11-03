@@ -20,7 +20,7 @@ const Input = ({ placeholder, name, type, value, handleChange }) => (
   );
 
 const Welcome = () => {
-    const { currentAccount, connectWallet, formData, sendTransaction, handleChange } = useContext(TransactionContext);
+    const { currentAccount, connectWallet, formData, sendTransaction, handleChange, isLoading } = useContext(TransactionContext);
 
     const handleSubmit = (e) => {
         const { addressTo, amount, keyword, message } = formData;
@@ -30,7 +30,7 @@ const Welcome = () => {
         if(!addressTo || !amount || !keyword || !message) return;
 
         sendTransaction();
-    }
+    };
     return (
         <div className="flex w-full justify-center items-center">
             <div className="flex mf:flex-row flex-col items-start justify-between md:p-20 py-12 px-4">
@@ -73,14 +73,14 @@ const Welcome = () => {
                     <div className="p-3 flex justify-end items-start flex-col rounded-xl h-40 sm:w-72 w-full my-5 eth-card .white-glassmorphism ">
                         <div className="flex justify-between flex-col w-full h-full">
                             <div className="flex justify-between items-start">
-                                <div className="flex justify-center items-cente">
-                                    <SiEthereum fontSize={23} color="#fff" />
+                                <div className="w-9 h-9 rounded-full border-2 border-black flex justify-center items-center">
+                                    <SiEthereum fontSize={25} color="black" />
                                 </div>
-                                <BsInfoCircle fontSize={16} color="#fff" />
+                                <BsInfoCircle fontSize={16} color="black" />
                             </div>
                             <div>
-                                <p className="text-white font-light text-sm">{shortenAddress(currentAccount)}</p>
-                                <p className="text-white font-semibold text-lg mt-1">Sepolia-ETH</p>
+                                <p className="text-#666 font-light text-sm">{shortenAddress(currentAccount)}</p>
+                                <p className="text-#666 font-semibold text-lg mt-1">Sepolia-ETH</p>
                             </div>
                         </div>
                     </div>
@@ -92,9 +92,9 @@ const Welcome = () => {
 
                         <div className="h-[1px] w-full bg-gray-400 my-2" />
                         
-                        {false ? (
+                        {isLoading ? 
                             <Loader />
-                        ) : (
+                         : (
                          <div>
                             <button
                             type="button"
