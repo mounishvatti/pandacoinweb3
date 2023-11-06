@@ -15,16 +15,53 @@ git clone https://github.com/mounishvatti/pandacoinweb3.git
 ```
 cd pandacoinweb3/client
 ```
+## install node modules
+
+```
+npm install
+```
 
 ## Install tailwindcss (Scroll down for steps)
 
+## Install react-icons & ethers in your client directory 
+
+Use the npm command:
+
+```
+npm i react-icons
+npm install --save ethers
+``` 
+
+## cd to the smart_contract directory
+
+```
+cd pandacoinweb3/smart_contract
+```
+
+```
+npm init
+```
+
+## install [`Hardhat`](https://hardhat.org/hardhat-runner/docs/getting-started)
+
+```
+npm install --save-dev hardhat
+```
+
 ### If you want to make it from the scratch follow the steps below:
+
+## create a folder named web3project
+
+## create two folders under web3project named client & smart_contract
+
 ## Make sure you have nodejs installed
 If not then download from the link provided below
 
 [`Nodejs`](https://nodejs.org/en/download/)
 
 This project was made using Vite
+
+## cd to the client folder and follow the following steps:
 
 Follow the link to understand the procedure for working with vite
 
@@ -129,7 +166,13 @@ npm i react-icons
 npm install --save ethers
 ```
 
+## cd to the smart_contract folder and do the following:
 
+## npm init
+
+```
+npm init
+```
 
 ## Using Hardhat for testing out SmartContracts
 
