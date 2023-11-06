@@ -1,4 +1,4 @@
-### PandaCoin Web3.0 Application (Vite + React)
+# PandaCoin Web3.0 Application (Vite + React)
 
 This is a Vite+React WEB3.0 Application using Tailwindcss for PandaCoin using Ethereum Blockchain Network &amp; writing Solidity Smart Contracts and integrating it with Metamask Extension to transfer SepoliaETH globally.
 
@@ -48,7 +48,7 @@ npm init
 npm install --save-dev hardhat
 ```
 
-### If you want to make it from the scratch follow the steps below:
+# If you want to make it from the scratch follow the steps below:
 
 ## create a folder named web3project
 
