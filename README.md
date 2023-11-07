@@ -207,6 +207,8 @@ $ npx hardhat init
   
 ```
 
+## Select [`Create a JavaScript project`]
+
 Make sure you checkout the `@nomiclabs/hardhat-waffle` as we'll be using it in this project.
 
 [`Hardhat-Plugins`](https://hardhat.org/hardhat-runner/plugins)
