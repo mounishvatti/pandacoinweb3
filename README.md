@@ -18,18 +18,18 @@ This is a Vite+React WEB3.0 Application using Tailwindcss for PandaCoin using Et
 
 ### Clone this repository
 
-```
+```bash
 git clone https://github.com/mounishvatti/pandacoinweb3.git
 ```
 
 ## cd to the client directory
 
-```
+```bash
 cd pandacoinweb3/client
 ```
 ## install node modules
 
-```
+```bash
 npm install
 ```
 
@@ -39,24 +39,24 @@ npm install
 
 Use the npm command:
 
-```
+```bash
 npm i react-icons
 npm install --save ethers
 ``` 
 
 ## cd to the smart_contract directory
 
-```
+```bash
 cd pandacoinweb3/smart_contract
 ```
 
-```
+```bash
 npm init
 ```
 
 ## install [`Hardhat`](https://hardhat.org/hardhat-runner/docs/getting-started)
 
-```
+```bash
 npm install --save-dev hardhat
 ```
 
@@ -81,18 +81,18 @@ Follow the link to understand the procedure for working with vite
 
 ## With NPM:
 
-```
+```bash
 npm create vite@latest
 ```
 
 ## With Yarn:
 
-```
+```bash
 yarn create vite
 ```
 
 ## With PNPM:
-```
+```bash
 pnpm create vite
 ```
 
@@ -113,7 +113,7 @@ pnpm create vite
 
 - Install tailwindcss and its peer dependencies via npm, and create your tailwind.config.js file.
 
-```
+```bash
 npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init
 ```
@@ -122,7 +122,7 @@ npx tailwindcss init
 Create a `postcss.config.js` in your root directory if it doesn’t exist already. This is where you will configure plugins
 - Add tailwindcss and autoprefixer to your postcss.config.js file, or wherever PostCSS is configured in your project.
 
-```
+```js
 module.exports = {
   plugins: {
     tailwindcss: {},
@@ -134,7 +134,7 @@ module.exports = {
 
 - Add the paths to all of your template files in your `tailwind.config.js` file.
 
-```
+```js
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -151,7 +151,7 @@ module.exports = {
 
 - Add the `@tailwind` directives for each of Tailwind’s layers to your ./src/index.css file.
 
-```
+```css
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -159,7 +159,7 @@ module.exports = {
 
 # Start your build process
 
-```
+```bash
 npm run start
 ```
 
@@ -173,7 +173,7 @@ npm run start
 
 Use the npm command:
 
-```
+```bash
 npm i react-icons
 npm install --save ethers
 ```
@@ -182,7 +182,7 @@ npm install --save ethers
 
 ## npm init
 
-```
+```bash
 npm init
 ```
 
@@ -192,13 +192,13 @@ npm init
 
 # Installing hardhat
 
-```
+```bash
 npm install --save-dev hardhat
 ```
 
 # npx hardhat init
 
-```
+```bash
 $ npx hardhat init
 888    888                      888 888               888
 888    888                      888 888               888
