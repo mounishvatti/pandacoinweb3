@@ -1,12 +1,12 @@
 ![image](https://github.com/mounishvatti/pandacoinweb3/assets/76279858/faf3de6d-93bc-4941-a044-5d848fafa521)
 
-# PandaCoin Web3.0 Application (Vite + React)
+## PandaCoin Web3.0 Application (Vite + React)
 
 This is a Vite+React WEB3.0 Application using Tailwindcss for PandaCoin using Ethereum Blockchain Network &amp; writing Solidity Smart Contracts and integrating it with Metamask Extension to transfer SepoliaETH globally.
 
 ![PandaCoin](client/src/assets/website.png)
 
-## Tech Stack
+### Tech Stack
 
 ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
@@ -22,20 +22,20 @@ This is a Vite+React WEB3.0 Application using Tailwindcss for PandaCoin using Et
 git clone https://github.com/mounishvatti/pandacoinweb3.git
 ```
 
-## cd to the client directory
+### cd to the client directory
 
 ```bash
 cd pandacoinweb3/client
 ```
-## install node modules
+### install node modules
 
 ```bash
 npm install
 ```
 
-## Install tailwindcss (Scroll down for steps)
+### Install tailwindcss (Scroll down for steps)
 
-## Install react-icons & ethers in your client directory 
+### Install react-icons & ethers in your client directory 
 
 Use the npm command:
 
@@ -44,7 +44,7 @@ npm i react-icons
 npm install --save ethers
 ``` 
 
-## cd to the smart_contract directory
+### cd to the smart_contract directory
 
 ```bash
 cd pandacoinweb3/smart_contract
@@ -54,62 +54,62 @@ cd pandacoinweb3/smart_contract
 npm init
 ```
 
-## install [`Hardhat`](https://hardhat.org/hardhat-runner/docs/getting-started)
+### install [`Hardhat`](https://hardhat.org/hardhat-runner/docs/getting-started)
 
 ```bash
 npm install --save-dev hardhat
 ```
 
-# If you want to make it from the scratch follow the steps below:
+### If you want to make it from the scratch follow the steps below:
 
-## create a folder named web3project
+#### create a folder named web3project
 
-## create two folders under web3project named client & smart_contract
+#### create two folders under web3project named client & smart_contract
 
-## Make sure you have nodejs installed
+#### Make sure you have nodejs installed
 If not then download from the link provided below
 
 [`Nodejs`](https://nodejs.org/en/download/)
 
-This project was made using Vite
+This project was made using `Vite`
 
-## cd to the client folder and follow the following steps:
+#### cd to the client folder and follow the following steps:
 
 Follow the link to understand the procedure for working with vite
 
 [`Vitejs`](https://vitejs.dev/guide/)
 
-## With NPM:
+#### With NPM:
 
 ```bash
 npm create vite@latest
 ```
 
-## With Yarn:
+#### With Yarn:
 
 ```bash
 yarn create vite
 ```
 
-## With PNPM:
+#### With PNPM:
 ```bash
 pnpm create vite
 ```
 
-## Choose your preferred template
+#### Choose your preferred template
 
 `vue` `react` `vanilla` etc.
 
-## Choose either TypeScript or JavaSript
+#### Choose either TypeScript or JavaSript
 
 `TypeScript`
 `TypeScript + swc`
 `JavaScript`
 `JavaScript + swc`
 
-## We're using Tailwindcss Using PostCSS
+#### We're using Tailwindcss Using PostCSS
 
-# Install Tailwind CSS
+### Install Tailwind CSS
 
 - Install tailwindcss and its peer dependencies via npm, and create your tailwind.config.js file.
 
@@ -118,7 +118,7 @@ npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init
 ```
 
-# Add Tailwind to your PostCSS configuration
+### Add Tailwind to your PostCSS configuration
 Create a `postcss.config.js` in your root directory if it doesn’t exist already. This is where you will configure plugins
 - Add tailwindcss and autoprefixer to your postcss.config.js file, or wherever PostCSS is configured in your project.
 
@@ -130,7 +130,7 @@ module.exports = {
   }
 }
 ```
-# Configure your template paths
+### Configure your template paths
 
 - Add the paths to all of your template files in your `tailwind.config.js` file.
 
@@ -147,7 +147,7 @@ module.exports = {
 }
 ```
 
-# Add the Tailwind directives to your CSS
+### Add the Tailwind directives to your CSS
 
 - Add the `@tailwind` directives for each of Tailwind’s layers to your ./src/index.css file.
 
@@ -157,19 +157,19 @@ module.exports = {
 @tailwind utilities;
 ```
 
-# Start your build process
+### Start your build process
 
 ```bash
 npm run start
 ```
 
-## Follow the Tailwind's official documentation for detailed explanation
+### Follow the Tailwind's official documentation for detailed explanation
 
 [`Tailwind + React`](https://tailwindcss.com/docs/guides/create-react-app)
 
 [`Tailwind using PostCSS`](https://tailwindcss.com/docs/installation/using-postcss)
 
-## Install react-icons & ethers in your client directory 
+### Install react-icons & ethers in your client directory 
 
 Use the npm command:
 
@@ -178,25 +178,25 @@ npm i react-icons
 npm install --save ethers
 ```
 
-## cd to the smart_contract folder and do the following:
+### cd to the smart_contract folder and do the following:
 
-## npm init
+### npm init
 
 ```bash
 npm init
 ```
 
-## Using Hardhat for testing out SmartContracts
+### Using Hardhat for testing out SmartContracts
 
 [`Hardhat`](https://hardhat.org/hardhat-runner/docs/getting-started)
 
-# Installing hardhat
+## Installing hardhat
 
 ```bash
 npm install --save-dev hardhat
 ```
 
-# npx hardhat init
+### npx hardhat init
 
 ```bash
 $ npx hardhat init
@@ -219,13 +219,13 @@ $ npx hardhat init
   
 ```
 
-## Select `Create a JavaScript project`
+### Select `Create a JavaScript project`
 
 Make sure you checkout the `@nomiclabs/hardhat-waffle` as we'll be using it in this project.
 
 [`Hardhat-Plugins`](https://hardhat.org/hardhat-runner/plugins)
 
-## Video Lecture by [`JS Mastery`](https://www.youtube.com/@javascriptmastery)
+### Video Lecture by [`JS Mastery`](https://www.youtube.com/@javascriptmastery)
 [`Build and Deploy a Modern Web 3.0 Blockchain App | Solidity, Smart Contracts, Crypto`](https://youtu.be/Wn_Kb3MR_cU?si=GP6AewHbyVxhR2kw) by [`@adrianhajdin`](https://github.com/adrianhajdin) 
 
 
