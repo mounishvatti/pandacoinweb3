@@ -1,4 +1,4 @@
-![image](https://github.com/mounishvatti/pandacoinweb3/assets/76279858/faf3de6d-93bc-4941-a044-5d848fafa521)
+![1](https://github.com/mounishvatti/pandacoinweb3/assets/76279858/34fa4cd1-35a1-4bf3-93b0-8082faa6308f)
 
 ## 🐼💰 PandaCoin Web3.0 Application (Vite + React)
 
