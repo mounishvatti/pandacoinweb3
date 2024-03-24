@@ -1,10 +1,10 @@
-![1](https://github.com/mounishvatti/pandacoinweb3/assets/76279858/34fa4cd1-35a1-4bf3-93b0-8082faa6308f)
+<img width="1404" alt="Screenshot 2024-03-24 at 10 47 58 AM" src="https://github.com/mounishvatti/pandacoinweb3/assets/76279858/b2badf6a-fd1e-4222-a550-8528b6455d36">
 
-## 🐼💰 PandaCoin Web3.0 Application (Vite + React)
+# 🐼💰 PandaCoin Web3.0 Application (Vite + React)
 
-This is a Vite+React WEB3.0 Application using Tailwindcss for PandaCoin using Ethereum Blockchain Network &amp; writing Solidity Smart Contracts and integrating it with Metamask Extension to transfer SepoliaETH globally.
+## This is a Vite+React WEB3.0 Application using Tailwindcss for PandaCoin using Ethereum Blockchain Network &amp; writing Solidity Smart Contracts and integrating it with Metamask Extension to transfer SepoliaETH globally.
 
-![PandaCoin](client/src/assets/website.png)
+
 
 ### Tech Stack
 
@@ -15,6 +15,8 @@ This is a Vite+React WEB3.0 Application using Tailwindcss for PandaCoin using Et
 ![Brave](https://img.shields.io/badge/Brave-FB542B?style=for-the-badge&logo=Brave&logoColor=white)
 
 ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+
+![image](https://github.com/mounishvatti/pandacoinweb3/assets/76279858/cd5a9ccb-b8b1-45ee-9ded-b613b88ab590)
 
 ### Clone this repository
 
