@@ -16,8 +16,6 @@
 
 ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
-![image](https://github.com/mounishvatti/pandacoinweb3/assets/76279858/cd5a9ccb-b8b1-45ee-9ded-b613b88ab590)
-
 ### Clone this repository
 
 ```bash
